@@ -1,0 +1,8 @@
+grep "pattern" filename
+e.g grep "John williams" names.txt 
+
+grep -w "pattern" filename -- returns whole word match
+grep -wi "pattern" filename -- i is case insensitive
+
+grep -n "pattern" filename -- returns line numbers where this pattern is found
+grep -n -B 4 "pattern" filename -- to see surrounding lines also
